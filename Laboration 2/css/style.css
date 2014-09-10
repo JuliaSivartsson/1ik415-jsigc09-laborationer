@@ -39,3 +39,20 @@ footer
     text-align:center;
     color: #fff;
 }
+
+h1
+{
+    color: #4C4C33;
+    border-bottom:1px solid #99CC00;
+}
+h2
+{
+    color: #C2A385;
+}
+
+hr
+{
+    color: #99CC00;
+    background-color: #99CC00;
+    height: 10px;
+}
