@@ -1,3 +1,4 @@
+
 body
 {
     background-color:#C2A385;
@@ -20,17 +21,16 @@ body
 
 #meny
 {
-    margin-left:10px;
-    width: 150px;
-    height: 100px;
-    position:left;
+    width: 130px;
+    float: left;
 }
 
 #content
 {
-    margin: 0 auto;
-    width: 700px;
-    position:relative;
+    float: right;
+    width: 780px;
+    border-left:1px solid #85AD33;
+    padding: 0 5px 0 5px;
 }
 
 footer
@@ -38,6 +38,7 @@ footer
     padding:10px 0 10px 0;
     text-align:center;
     color: #fff;
+    clear:both;
 }
 
 h1
@@ -53,6 +54,66 @@ h2
 hr
 {
     color: #99CC00;
-    background-color: #99CC00;
+    background-color: #85AD33;
     height: 10px;
+}
+
+a:link { color: #000000; text-decoration: none; }
+a:visited { color: #000000; text-decoration: none; }
+a:hover { color: #999999; }
+a:active { text-decoration: underline; }
+
+#meny li 
+{
+    list-style: none;
+    margin: 5px -20px 0px 0;
+}
+
+#meny li a
+{
+    display: block;
+    text-align: center;
+    background-color: #332F24;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+#meny li a:hover
+{
+    background-color: #ABA28A;
+    color: #000;
+}
+
+
+#form fieldset
+{
+    width: 500px;
+    padding: 20px 0 20px 50px;
+    border: 1px solid #C2A385;
+}
+
+#form legend
+{
+    color: #C2A385; 
+    letter-spacing: 5px; 
+    margin-left: 100px;
+}
+
+
+#meny a#active {
+    margin: 5px 0 0 0;
+    background-color: #ABA28A;
+    color: #000;
+}
+
+ul
+{
+    padding: 0 0 0 1px;
+    margin: 0 0 0 10px;
+}
+
+#site
+{
+    margin: 0 auto;
+    padding-left: 10px;
+    margin-bottom: -2px;
 }

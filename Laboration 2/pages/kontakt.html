@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="sv">
 
+    <div id="container">
 <head>
         <meta charset="UTF-8" />
         <!-- läser in css-fil-->
         <link href="../css/style.css" rel="stylesheet" type="text/css">
         <!-- Sidans titel -->
         <title>Kontakt</title>
-        
-    <div id="container">
     
+    <div id="header">
+        <img id="logo" alt="logo" src="../pics/logo.png">
+    </div>
+
     <!-- Meny -->
     <div id="meny">
         <!-- Rubrik 2 (lite mindre format) -->
-        <h2>Kontakt</h2>
+        <h2 id="site">Kontakt</h2>
         <ul>
             <li><a href="../index.html">Index</a></li>
             <li><a href="laborationer.html">Laborationer</a></li>
             <li><a href="presentation.html">Om Julia</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="kontakt.html" id="active">Kontakt</a></li>
         </ul>
     </div>
 </head>
@@ -30,7 +33,7 @@
     <h1>Kontakt</h1>
     
     <form id="form" name="form" method="post" action=" http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echoraw.cgi"> 
-    <fieldset style="width: 450px;">
+    <fieldset>
     <legend>Fråga</legend>
         <select name="arende" id="arende">
             <option value="fraga"> Fråga </option>
