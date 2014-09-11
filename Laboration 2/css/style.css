@@ -30,7 +30,7 @@ body
     float: right;
     width: 780px;
     border-left:1px solid #85AD33;
-    padding: 0 5px 0 5px;
+    padding: 0 5px 0 10px;
 }
 
 footer
@@ -49,6 +49,8 @@ h1
 h2
 {
     color: #C2A385;
+    font-size: 20px;
+    font-family: "Georgia";
 }
 
 hr
@@ -116,4 +118,9 @@ ul
     margin: 0 auto;
     padding-left: 10px;
     margin-bottom: -2px;
+}
+
+p {
+    font-family: "Georgia";
+    font-size: 14px;
 }
