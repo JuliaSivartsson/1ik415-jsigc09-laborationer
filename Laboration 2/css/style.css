@@ -19,6 +19,14 @@ body
     margin: 0 auto;
 }
 
+#logo
+{
+    background-image:url(pics/logo.png);
+    height: 300px;
+    margin-top: -40px;
+    
+}
+
 #meny
 {
     width: 130px;
@@ -123,4 +131,14 @@ ul
 p {
     font-family: "Georgia";
     font-size: 14px;
+}
+
+#feather
+{
+    background-image: url(pics/feather.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    float: left;
 }
