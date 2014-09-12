@@ -145,3 +145,13 @@ a:active { text-decoration: underline; }
     width: 30px;
     float: left;
 }
+
+.right
+{
+    float:right;
+}
+
+.left
+{
+    float:left;
+}
