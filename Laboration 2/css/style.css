@@ -155,3 +155,44 @@ a:active { text-decoration: underline; }
 {
     float:left;
 }
+
+/* TABLE
+Found a lot of help for the design on: http://www.designmycss.com/table-designer
+I could see what they were doing, so I looked at their code and wrote it into my own code, and it works fine!
+*/
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #58663A;
+    font-family: "Palatino Linotype";
+}
+
+table
+{
+    margin: 0 auto;
+    width: 70%;
+}
+
+th {
+    background-color: #58663A;
+    padding: 20px;
+    font-size: 18px;
+}
+
+td
+{
+    padding: 5px;
+}
+tr:hover td
+{
+    background: #58663A;
+}
+
+tr:nth-child(odd) td
+{
+background:#6E8049;
+}
+ 
+tr:nth-child(odd):hover td
+{
+    background:#58663A;
+}
