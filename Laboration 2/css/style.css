@@ -182,6 +182,11 @@ td
 {
     padding: 5px;
 }
+
+tr
+{
+    background: #ABC96D;
+}
 tr:hover td
 {
     background: #58663A;
