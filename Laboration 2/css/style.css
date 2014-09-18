@@ -113,6 +113,7 @@ a:active { text-decoration: underline; }
     color: #000;
 }
 
+
 /* FORM */
 #form fieldset
 {
@@ -146,6 +147,7 @@ a:active { text-decoration: underline; }
     float: left;
 }
 
+/* Classes */
 .right
 {
     float:right;
