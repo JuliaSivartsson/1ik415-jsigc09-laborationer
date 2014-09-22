@@ -1,3 +1,7 @@
+@import url(print.css) print;
+
+@media screen
+{
 
 body
 {
@@ -241,6 +245,7 @@ tr
 {
     background: #ABC96D;
 }
+
 tr:hover td
 {
     background: #58663A;
@@ -254,4 +259,6 @@ background:#6E8049;
 tr:nth-child(odd):hover td
 {
     background:#58663A;
+}
+
 }
