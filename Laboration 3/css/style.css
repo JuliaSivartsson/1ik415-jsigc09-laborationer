@@ -128,6 +128,59 @@ a:active { text-decoration: underline; }
     letter-spacing: 5px; 
     margin-left: 100px;
 }
+#form textarea 
+{ 
+    border: 1px solid #99cc00; 
+    padding: 5px; 
+    font-size: 11px; 
+    background-color: #ABA28A; 
+}
+.form_text 
+{ 
+    border: 1px solid #99cc00; 
+    padding: 5px; 
+    font-size: 11px; 
+    letter-spacing: 2px; 
+    background-color: #ABA28A; 
+}
+
+.select
+{
+   background: #c2a485;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   border: 1px solid #c2a485;
+   padding: 5px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #3b3b3b;
+   font-size: 12px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+}
+
+.button
+{
+   background: #c2a485;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+   border: 1px solid #c2a485;
+   padding: 5px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #3b3b3b;
+   font-size: 12px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+}
+.button:hover 
+   {
+   background: #c2a485;
+   color: white;
+   }
+.button:active 
+   {
+   background: #c2a485;
+   }
+
 
 #site
 {
