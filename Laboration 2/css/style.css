@@ -136,16 +136,6 @@ a:active { text-decoration: underline; }
     margin-bottom: -2px;
 }
 
-.feather
-{
-    background-image: url(pics/feather.png);
-    background-size: 30px 30px;
-    background-repeat: no-repeat;
-    height: 30px;
-    width: 30px;
-    float: left;
-}
-
 /* Classes */
 .right
 {
@@ -155,6 +145,16 @@ a:active { text-decoration: underline; }
 .left
 {
     float:left;
+}
+
+.feather
+{
+    background-image: url(pics/feather.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    float: left;
 }
 
 /* TABLE
