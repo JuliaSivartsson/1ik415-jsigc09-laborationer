@@ -136,7 +136,7 @@ a:active { text-decoration: underline; }
     margin-bottom: -2px;
 }
 
-#feather
+.feather
 {
     background-image: url(pics/feather.png);
     background-size: 30px 30px;
