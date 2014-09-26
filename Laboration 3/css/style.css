@@ -104,6 +104,8 @@ a:active { text-decoration: underline; }
     background-color: #332F24;
     color: #fff;
     padding: 5px 10px 5px 10px;
+    background:url(pics/sprite.png);
+    background-repeat: no-repeat;
 }
 #meny li a:hover
 {
@@ -116,6 +118,17 @@ a:active { text-decoration: underline; }
     background-color: #ABA28A;
     color: #000;
 }
+
+#meny .a{background-position: 4px -46px; }
+#meny .b{background-position: 2px -140px; }
+#meny .c{background-position: 4px -238px;}
+#meny .d{background-position: 4px -334px;}
+
+/* Hover/Focus State */
+#meny .a:hover {background-position: 4px 2px;}
+#meny .b:hover {background-position: 2px -92px;}
+#meny .c:hover {background-position: 4px -190px;}
+#meny .d:hover {background-position: 4px -286px;}
 
 
 /* FORM */
