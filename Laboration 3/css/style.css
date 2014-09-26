@@ -1,4 +1,9 @@
 @import url(print.css) print;
+@font-face {
+    font-family: YoureInvited;
+    src: url(font/YoureInvited.otf);
+}
+
 
 @media screen
 {
@@ -27,12 +32,15 @@ h1
 {
     color: #4C4C33;
     border-bottom:1px solid #99CC00;
+    font-family: YoureInvited;
+    font-size: 38px;
 }
 h2
 {
     color: #C2A385;
     font-size: 20px;
-    font-family: "Georgia";
+    font-family: YoureInvited;
+    font-size: 28px;
 }
 
 hr
@@ -225,6 +233,11 @@ a:active { text-decoration: underline; }
 .left
 {
     float:left;
+}
+
+.transparent
+{
+   background-color: rgba(238, 172, 170, 0.2);
 }
 
 /* TABLE
