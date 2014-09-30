@@ -100,18 +100,18 @@ img{
 
 
     /* MENU */
-    #meny
+    #menu
     {
         width: 95%;
     }
     
-    #meny li 
+    #menu li 
     {
         list-style: none;
         margin: 5px 0 0 0;
     }
     
-    #meny li a
+    #menu li a
     {
         display: block;
         text-align: center;
@@ -121,28 +121,28 @@ img{
         background:url(pics/sprite.png);
         background-repeat: no-repeat;
     }
-    #meny li a:hover
+    #menu li a:hover
     {
         background-color: #ABA28A;
         color: #000;
     }
     
-    #meny a#active {
+    #menu a#active {
         margin: 5px 0 0 0;
         background-color: #ABA28A;
         color: #000;
     }
     
-    #meny .a{background-position: 4px -46px; }
-    #meny .b{background-position: 2px -140px; }
-    #meny .c{background-position: 4px -238px;}
-    #meny .d{background-position: 4px -334px;}
+    #menu .a{background-position: 4px -46px; }
+    #menu .b{background-position: 2px -140px; }
+    #menu .c{background-position: 4px -238px;}
+    #menu .d{background-position: 4px -334px;}
     
     /* Hover/Focus State */
-    #meny .a:hover {background-position: 4px 2px;}
-    #meny .b:hover {background-position: 2px -92px;}
-    #meny .c:hover {background-position: 4px -190px;}
-    #meny .d:hover {background-position: 4px -286px;}
+    #menu .a:hover {background-position: 4px 2px;}
+    #menu .b:hover {background-position: 2px -92px;}
+    #menu .c:hover {background-position: 4px -190px;}
+    #menu .d:hover {background-position: 4px -286px;}
     
     
     
