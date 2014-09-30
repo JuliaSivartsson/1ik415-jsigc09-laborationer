@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-        <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- läser in css-fil-->
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css" media="screen and (min-width:481px)" />
+        <link rel="stylesheet" href="css/small.css" media="only screen and (max-width:480px)" />
+        
         <!-- Sidans titel -->
         <title>Min blogg</title>
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="pics/icon57x57.jpg" />
+        <link rel="apple-touch-icon" sizes="72x72" href="pics/icon72x72.jpg" />
+        <link rel="apple-touch-icon" sizes="114x114" href="pics/icon114x114.jpg" />
+        <link rel="apple-touch-icon" sizes="144x144" href="pics/icon144x144.jpg" />
 </head>
 <body>
     <div id="container">
         <div id="header">
             <div id="logo"></div>
         </div>
-        
         <!-- Meny -->
-        <div id="meny">
             <!-- Rubrik 2 (lite mindre format) -->
             <h2 id="site">Index</h2>
+        <div id="meny">
             <ul>
                 <li><a href="index.html" id="active" class="a">Index</a></li>
                 <li><a href="pages/laborationer.html" class="b">Laborationer</a></li>
@@ -45,7 +52,7 @@
                 </p>
                 
                 <p>
-                    En annan del jag tyckte var svår i uppgiften var att få logo-bilden att hamna där den skulle, eftersom vi inte fick ändra någonting i html-filen. Men jag lyckades
+                    En annan del jag €tyc€kte var svår i uppgiften var att få logo-bilden att hamna där den skulle, eftersom vi inte fick ändra någonting i html-filen. Men jag lyckades
                     lösa det genom att lägga bilden som en bakgrundsbild i topcontent div:en och därefter flytta ner den en bit från toppen så att det fick plats en liten text samt annan bakgrundsfärg ovanför.
                     Riktigt rolig och givande uppgift tycker jag att detta var i alla fall, det kan vara svårare än man tror att efterlikna en annan design bara genom att ändra css-filen.
                 </p>
