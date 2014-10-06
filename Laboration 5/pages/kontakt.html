@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- läser in css-fil-->
+        <link rel="stylesheet" href="../css/style.css" media="screen and (min-width:481px)" />
+        <link rel="stylesheet" href="../css/small.css" media="only screen and (max-width:480px)" />
+        <!-- Sidans titel -->
+        <title>Kontakt</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="header">
+            <div id="logo"></div>
+        </div>
+    
+        <!-- Meny -->
+        <nav>
+            <!-- Rubrik 2 (lite mindre format) -->
+            <h2 id="site">Kontakt</h2>
+            <ul>
+                <li><a href="../index.html" class="a">Index</a></li>
+                <li><a href="laborationer.html" class="b">Laborationer</a></li>
+                <li><a href="presentation.html" class="c">Om Julia</a></li>
+                <li><a href="kontakt.html" id="active" class="d">Kontakt</a></li>
+            </ul>
+        </nav>
+        
+        <div id="content" class="transparent">
+            <!-- Rubrik 1 -->
+            <h1>Kontakt</h1>
+            
+            <!-- Formulär -->
+            <form id="form" name="form" method="post" action=" http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echoraw.cgi">
+            <fieldset>
+            <legend>Fråga</legend>
+            <p>
+                <select class="select" name="arende" id="arende">
+                    <option value="fraga"> Fråga </option>
+                    <option value="asikt"> Åsikt </option>
+                    <option value="kritik"> Kritik </option>
+                </select>
+            </p>
+            <p>  
+                <label for="rubrik">Rubrik:</label><br/>
+                <input type="text" name="rubrik" class="form_text" id="rubrik" size="10" />
+            </p>
+            <p>
+                <label for="meddelande">Meddelande:</label><br/>
+                <textarea name="meddelande" class="form_text" id="meddelande" cols="30" rows="5"></textarea>
+            </p>   
+                <label for="rubrik">Telefon:</label><br/>
+                <input type="tel" name="tel" class="form_text" id="tel" size="10" />
+            </fieldset>
+            
+            <fieldset>
+                <legend>Information om mig</legend>
+            <p>
+                <label for="mail">Kontakta mig via mail</label>
+                <input type="checkbox" name="mail" id="mail" value="mail"/>
+            </p>
+            <p>
+                <label for="telefon">Kontakta mig via telefon</label>
+                <input type="checkbox" name="telefon" id="telefon" value="telefon"/>
+            </p>
+            </fieldset>
+                <input type="submit" class="button" name="submit" id="submit"/>
+            
+            <p>
+                Test av formulär tackar jag <a target="_blank" href="http://www.cs.tut.fi/~jkorpela/forms/testing.html">Jukka "Yucca" Korpela</a> för.
+            </p>
+        </div>
+        
+        <!-- Längst ner på sidan -->
+        <footer>
+            © Julia Sivartsson 2014
+        </footer>
+    </div>
+    
+</body>
+</html>
