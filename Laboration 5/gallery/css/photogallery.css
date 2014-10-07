@@ -1,0 +1,30 @@
+body
+{
+    background-image:url(pics/wood.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+#container
+{
+    margin: 0 auto;
+    width: 80%;
+    height: 800px;
+   background-color: rgba(238, 172, 170, 0.5);
+    
+}
+
+#images
+{
+    float:left;
+}
+
+#side
+{
+    float: right;
+    border-left: 2px solid #333;
+    margin-right: 20px;
+    padding-left: 10px;
+    width: 200px;
+    
+}
