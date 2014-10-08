@@ -4,19 +4,22 @@
     src: url(font/YoureInvited.otf);
 }
 
-img{
+
+
+@media only screen and (max-width:480px)
+{
+    
+    img
+    {
     width:100%;
     max-width:200px;
-}
+    }
 
 video
 {
     max-width: 300px;
 }
 
-
-@media only screen and (max-width:480px)
-{
     
     body
     {
@@ -284,7 +287,4 @@ video
     }
     
     }
-
-
-
 }
