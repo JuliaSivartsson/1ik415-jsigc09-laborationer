@@ -1,22 +1,29 @@
+@font-face {
+    font-family: sensation;
+    src: url(font/sensation.ttf);
+}
+
+
 body
 {
     background-image:url(pics/wood.jpg);
-    background-repeat: no-repeat;
     color: #fff;
 }
 
 #container
 {
     margin: 0 auto;
-    width: 80%;
-    height: 800px;
+    margin-top: 100px;
+    width: 90%;
    background-color: rgba(238, 172, 170, 0.5);
     
 }
 
-#images
+.images
 {
     float:left;
+    width: 80%;
+    font-family: sensation;
 }
 
 #side
@@ -26,5 +33,84 @@ body
     margin-right: 20px;
     padding-left: 10px;
     width: 200px;
-    
+}
+
+
+
+/* GALLERY */
+
+.images a
+{
+    width: 200px;
+    background: white;
+	display: inline;
+	float: left;
+	margin: 20px 1px 5px;
+	padding: 10px 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 20px 20px rgba(0,0,0,.7);
+	box-shadow: 0 20px 20px rgba(0,0,0,.7);
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	transition: all .15s linear;
+	z-index:0;
+    position:relative;
+}
+
+.images a:after
+{
+    color: #333;
+	font-size: 60px;
+	content: attr(title);
+	position: relative;
+	top:15px;
+}
+
+.images img
+{
+    display: block; 
+	width: inherit; 
+}
+
+.images a:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+.images a:nth-child(3n) { 
+	-webkit-transform: rotate(-24deg);  
+	-moz-transform: rotate(-24deg); 
+	transform: rotate(-24deg); 
+}
+.images a:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+.images a:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg); 
+}
+
+.images a:hover{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.5); 
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 15px rgba(0,0,0,.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
+.images a {
+
 }
