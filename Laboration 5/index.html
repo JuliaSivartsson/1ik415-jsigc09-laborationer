@@ -2,6 +2,26 @@
 <html lang="sv">
 
 <head>
+    <section id="hcard-Julia-Sandra-Sivartsson" class="vcard">
+        <span class="fn n">
+            <span class="given-name">Julia</span>
+            <span class="additional-name">Sandra</span>
+            <span class="family-name">Sivartsson</span>
+        </span>
+     <span class="org">Linnéuniversitetet</span>
+        <section class="adr">
+            <span class="locality">Växjö</span>
+            <span class="country-name">Sweden</span>
+             <br><a class="email" href="mailto:jsigc09@student.lnu.se">jsigc09@student.lnu.se</a>
+        </section>
+    </section>
+    <section>
+        <span class="category">blog</span>, 
+        <span class="category">webpage</span>, 
+        <span class="category">personal</span>, 
+        <span class="category">school</span>
+    </section>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- läser in css-fil-->
@@ -19,7 +39,7 @@
 
 <body>
     <div id="container">
-        <header>
+        <header class="top">
             <div id="logo"></div>
         </header>
         <!-- Meny -->
@@ -32,16 +52,44 @@
                 <li><a href="pages/laborationer.html" class="b">Laborationer</a></li>
                 <li><a href="pages/presentation.html" class="c">Om Julia</a></li>
                 <li><a href="pages/kontakt.html" class="d">Kontakt</a></li>
+                <li><a target="_blank" href="gallery/index.html" class="e">Galleri</a></li>
             </ul>
         </nav>
         
         <main class="transparent">
-            <!-- Rubrik 1 -->
-            <h1>itzy's blogg</h1>
+            <header>
+                <!-- Rubrik 1 -->
+                <h1>itzy's blogg</h1>
+            </header>
+            
+            <!-- Blogginlägg 7-->
+            <article>
+                    <div class="feather"></div><h2>Fotogalleri!</h2>
+                <p>
+                    Nu ligger äntligen ett fotogalleri uppe här på sidan. Det är skapat
+                    endast med hjälp av CSS3 som jag nu insett har så mycket att erbjuda!
+                    Det var riktigt roligt och lärorikt att göra denna uppgiften, jag fick googla runt mycket för att 
+                    få mig en uppfattning om hur jag skulle bygga upp det.
+                </p>
+                <p>
+                    Kolla in galleriet på: <a target="_blank" href="https://1ik415-jsigc09-laborationer-c9-juliasivartsson.c9.io/Laboration%205/gallery/index.html">galleri</a>
+                </p>
+                <footer class="blog">Skrivet av Julia Sivartsson <time>2014-10-09 15:40</time></footer>
+                <article class="comment-article">
+                    <h3>Kommentarer:<h3>
+                    <aside>
+                        <h4>Anubis - <time>2014-10-09 16:05</time></h4>
+                        <p class="comment">
+                        Coolt att man kan göra ett galleri med bara CSS3!
+                        </p>
+                    </aside>
+                </article>
+                <hr>
+            </article>
             
             <!-- Blogginlägg 6-->
             <article>
-                    <div id="feather"></div><h2>Copycat</h2>
+                    <div class="feather"></div><h2>Copycat</h2>
                 <p>
                     Mobilversion tillgänglig!
                 </p>
@@ -112,7 +160,7 @@
             
             <!-- Blogginlägg 4 -->
             <article>
-                <div id="feather"></div><h2>Alastair</h2>
+                <div class="feather"></div><h2>Alastair</h2>
                                 <img class="right" src="pics/alastair.jpg" alt="alastair">
                 <p>
                     Fick i uppgift att göra ett blogginlägg med bild, så jag tänkte, vad bättre att skriva om än min sambo, skäggagamen Alastair.
@@ -163,7 +211,7 @@
             
             <!-- Blogginlägg 3 -->
             <article>
-                    <div id="feather"></div><h2 id="video">Video</h2>
+                    <div class="feather"></div><h2 id="video">Video</h2>
                 <p>
                     Här är en trailer till Big Buck Bunny:
                 </p>
@@ -200,7 +248,7 @@
                 
             <!-- Blogginlägg 2 -->
             <article>
-                    <div id="feather"></div><h2 id="panda">Panda</h2>
+                    <div class="feather"></div><h2 id="panda">Panda</h2>
                 <p>
                     Min fina panda, gjord i vektor-grafik:</p>
                     <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+Cjxzdmcgd2lkdGg9IjY0MCIgaGVpZ2h0PSI0ODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8IS0tIENyZWF0ZWQgd2l0aCBTVkctZWRpdCAtIGh0dHA6Ly9zdmctZWRpdC5nb29nbGVjb2RlLmNvbS8gLS0+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPGVsbGlwc2Ugcnk9IjE0OCIgcng9IjEyOSIgaWQ9InN2Z18zIiBjeT0iMjgwIiBjeD0iMzAyIiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iI2ZmZmZmZiIvPgogIDxlbGxpcHNlIHJ5PSI3MSIgcng9IjgwIiBpZD0ic3ZnXzEiIGN5PSIxMTgiIGN4PSIyOTkiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSIjZmZmZmZmIi8+CiAgPGVsbGlwc2Ugcnk9IjMwIiByeD0iMjEiIGlkPSJzdmdfNCIgY3k9IjUwIiBjeD0iMjQ2IiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIvPgogIDxlbGxpcHNlIHJ5PSIyOSIgcng9IjE5IiBpZD0ic3ZnXzUiIGN5PSI1MSIgY3g9IjM1NSIgc3Ryb2tlLWxpbmVjYXA9Im51bGwiIHN0cm9rZS1saW5lam9pbj0ibnVsbCIgc3Ryb2tlLWRhc2hhcnJheT0ibnVsbCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9IiMwMDAwMDAiLz4KICA8ZWxsaXBzZSByeT0iOSIgcng9IjE5IiBpZD0ic3ZnXzYiIGN5PSIxNDIiIGN4PSIyOTkiIHN0cm9rZS1saW5lY2FwPSJudWxsIiBzdHJva2UtbGluZWpvaW49Im51bGwiIHN0cm9rZS1kYXNoYXJyYXk9Im51bGwiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSIjMDAwMDAwIi8+CiAgPGVsbGlwc2Ugcnk9IjI0IiByeD0iMTAiIGlkPSJzdmdfNyIgY3k9IjEwOSIgY3g9IjMyNCIgc3Ryb2tlLWxpbmVjYXA9Im51bGwiIHN0cm9rZS1saW5lam9pbj0ibnVsbCIgc3Ryb2tlLWRhc2hhcnJheT0ibnVsbCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9IiMwMDAwMDAiLz4KICA8ZWxsaXBzZSByeT0iMzEiIHJ4PSIxMSIgaWQ9InN2Z184IiBjeT0iMTAyIiBjeD0iMjcwIiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIvPgogIDxlbGxpcHNlIHN0cm9rZT0iIzAwMDAwMCIgdHJhbnNmb3JtPSJyb3RhdGUoLTI5LjA1NDYwMzU3NjY2MDE1NiAxODYuMzA2NjEwMTA3NDIyLDE4NC41NTE4Nzk4ODI4MTI1MykgIiByeT0iMzEuNDgxNzc1IiByeD0iMTciIGlkPSJzdmdfOSIgY3k9IjE4NC41NTE4ODIiIGN4PSIxODYuMzA2NjAxIiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIGZpbGw9IiMwMDAwMDAiLz4KICA8ZWxsaXBzZSBzdHJva2U9IiMwMDAwMDAiIHRyYW5zZm9ybT0icm90YXRlKDI0LjcwMjQzMDcyNTA5NzY1NiA0MDcuMzU4MDMyMjI2NTYyNiwxODQuMTM0NzA0NTg5ODQzNykgIiByeT0iMjkuMTM2MjYyIiByeD0iMTYuOTExNzkzIiBpZD0ic3ZnXzEwIiBjeT0iMTg0LjEzNDY5NSIgY3g9IjQwNy4zNTgwMzciIHN0cm9rZS1saW5lY2FwPSJudWxsIiBzdHJva2UtbGluZWpvaW49Im51bGwiIHN0cm9rZS1kYXNoYXJyYXk9Im51bGwiIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0iIzAwMDAwMCIvPgogIDxlbGxpcHNlIHJ5PSI3NiIgcng9IjQ1IiBpZD0ic3ZnXzExIiBjeT0iMzU5IiBjeD0iMzcyIiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIvPgogIDxlbGxpcHNlIHJ5PSI4MCIgcng9IjQxIiBpZD0ic3ZnXzEyIiBjeT0iMzYwIiBjeD0iMjM3IiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzAwMDAwMCIvPgogIDxyZWN0IHRyYW5zZm9ybT0icm90YXRlKC0yMy41MTIxNjg4ODQyNzczNDQgMTcwLjAwMDAwMDAwMDAwMDAzLDE3Ny4wMDAwMDAwMDAwMDAwMykgIiBpZD0ic3ZnXzEzIiBoZWlnaHQ9IjIwNCIgd2lkdGg9IjEyIiB5PSI3NSIgeD0iMTY0IiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzdmZmYwMCIvPgogIDxlbGxpcHNlIHJ5PSIyNyIgcng9IjUiIGlkPSJzdmdfMTQiIGN5PSI5NiIgY3g9IjE0OCIgc3Ryb2tlLWxpbmVjYXA9Im51bGwiIHN0cm9rZS1saW5lam9pbj0ibnVsbCIgc3Ryb2tlLWRhc2hhcnJheT0ibnVsbCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9IiM3ZmZmMDAiLz4KICA8ZWxsaXBzZSB0cmFuc2Zvcm09InJvdGF0ZSgxNi4zNDgxNzEyMzQxMzA4NiAxNTkuOTk5OTk5OTk5OTk5OTEsOTMpICIgcnk9IjI5IiByeD0iOCIgaWQ9InN2Z18xNSIgY3k9IjkzIiBjeD0iMTYwIiBzdHJva2UtbGluZWNhcD0ibnVsbCIgc3Ryb2tlLWxpbmVqb2luPSJudWxsIiBzdHJva2UtZGFzaGFycmF5PSJudWxsIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0iIzdmZmYwMCIvPgogPC9nPgo8L3N2Zz4=">
@@ -219,7 +267,7 @@
         
             <!-- Blogginlägg 1 -->
             <article>
-                    <div id="feather"></div><h2>2014-09-03</h2>
+                    <div class="feather"></div><h2>2014-09-03</h2>
                 <p>
                     Tjena bloggen, i kursen Webbteknisk introduktion har jag fått till uppgift att skapa
                     mig en blogg. Så här är mitt första inlägg i vad jag hoppas kommer bli en oerhört awesome

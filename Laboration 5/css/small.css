@@ -1,24 +1,20 @@
-@import url(print.css) print;
-@font-face {
-    font-family: YoureInvited;
-    src: url(font/YoureInvited.otf);
-}
+@import url(style.css);
 
-img{
+
+.transparent
+{
+   background-color: rgba(238, 172, 170, 0.0);
+}
+    img
+    {
     width:100%;
     max-width:200px;
-}
-
-
-@media only screen and (max-width:480px)
-{
-    
-    body
-    {
-        background-color:#C2A385;
-        color: #fff;
     }
     
+    video
+    {
+        max-width: 300px;
+    }
     
     footer
     {
@@ -28,64 +24,40 @@ img{
         clear:both;
     }
     
-    p 
-    {
-        font-family: "Georgia";
-        font-size: 14px;
-    }
-    
     h1
     {
-        color: #4C4C33;
-        border-bottom:1px solid #99CC00;
-        font-family: YoureInvited;
         font-size: 30px;
     }
     h2 
     {
-        color: #C2A385;
-        font-size: 20px;
-        font-family: YoureInvited;
         font-size: 20px;
     }
     
     hr
     {
-        color: #99CC00;
-        background-color: #85AD33;
         height: 5px;
     }
     
     ul
     {
-        padding: 0 0 0 1px;
         margin: 0 0 0 20px;
     }
     
-    a:link { color: #000000; text-decoration: none; }
-    a:visited { color: #000000; text-decoration: none; }
-    a:hover { color: #999999; }
-    a:active { text-decoration: underline; }
-
-    
-        
     #container
     {
         width:99%;
-        margin: 0 auto;
-        background-color:#6B6B47;
+        padding-left: 5px;
     }
     
 #header
 {
     width: 200px;
     height: 150px;
-    margin: 0 auto;
+    padding-top: 15px;
 }
     
     #logo
     {
-        background-image: url(pics/logo.png);
         background-size: 200px 150px;
         background-repeat: no-repeat;
         background-attachment: center;
@@ -108,178 +80,22 @@ img{
     #menu li 
     {
         list-style: none;
-        margin: 5px 0 0 0;
+        margin: 2px 0 0 0;
     }
     
     #menu li a
     {
-        display: block;
-        text-align: center;
-        background-color: #332F24;
-        color: #fff;
         padding: 5px 0px 5px 0px;
-        background:url(pics/sprite.png);
-        background-repeat: no-repeat;
     }
-    #menu li a:hover
-    {
-        background-color: #ABA28A;
-        color: #000;
-    }
-    
-    #menu a#active {
-        margin: 5px 0 0 0;
-        background-color: #ABA28A;
-        color: #000;
-    }
-    
-    #menu .a{background-position: 4px -46px; }
-    #menu .b{background-position: 2px -140px; }
-    #menu .c{background-position: 4px -238px;}
-    #menu .d{background-position: 4px -334px;}
-    
-    /* Hover/Focus State */
-    #menu .a:hover {background-position: 4px 2px;}
-    #menu .b:hover {background-position: 2px -92px;}
-    #menu .c:hover {background-position: 4px -190px;}
-    #menu .d:hover {background-position: 4px -286px;}
-    
-    
     
     /* FORM */
     #form fieldset
     {
-        width: 90%;
-        border: 1px solid #C2A385;
+        width: 80%;
     }
     
     #form legend
     {
-        color: #C2A385; 
-        letter-spacing: 5px;
-    }
-    #form textarea 
-    { 
-        border: 1px solid #99cc00; 
-        padding: 5px; 
-        font-size: 11px; 
-        background-color: #ABA28A; 
-    }
-    .form_text 
-    { 
-        border: 1px solid #99cc00; 
-        padding: 5px; 
-        font-size: 11px; 
-        letter-spacing: 2px; 
-        background-color: #ABA28A; 
+            margin-left: 0;
     }
     
-    .select
-    {
-       background: #c2a485;
-       -moz-border-radius: 15px;
-       -webkit-border-radius: 15px;
-       border: 1px solid #c2a485;
-       padding: 5px;
-       text-shadow: rgba(0,0,0,.4) 0 1px 0;
-       color: #3b3b3b;
-       font-size: 12px;
-       font-family: Georgia, serif;
-       text-decoration: none;
-    }
-    
-    .button
-    {
-       background: #c2a485;
-       -moz-border-radius: 15px;
-       -webkit-border-radius: 15px;
-       border: 1px solid #c2a485;
-       padding: 5px;
-       text-shadow: rgba(0,0,0,.4) 0 1px 0;
-       color: #3b3b3b;
-       font-size: 12px;
-       font-family: Georgia, serif;
-       text-decoration: none;
-    }
-    .button:hover 
-       {
-       background: #c2a485;
-       color: white;
-       }
-    .button:active 
-       {
-       background: #c2a485;
-       }
-    
-    
-    #site
-    {
-        margin: 0 auto;
-        padding-left: 10px;
-        margin-bottom: -2px;
-    }
-    
-    #feather
-    {
-        background-image: url(pics/feather.png);
-        background-size: 30px 30px;
-        background-repeat: no-repeat;
-        height: 30px;
-        width: 30px;
-        float: left;
-    }
-    
-    /* Classes */
-    
-    /* TABLE
-    Found a lot of help for the design on: http://www.designmycss.com/table-designer
-    I could see what they were doing, so I looked at their code and wrote it into my own code, and it works fine!
-    */
-    table, th, td {
-        border-collapse: collapse;
-        border: 1px solid #58663A;
-        font-family: "Palatino Linotype";
-    }
-    
-    table
-    {
-        margin: 0 auto;
-        width: 70%;
-    }
-    
-    th {
-        background-color: #58663A;
-        padding: 20px;
-        font-size: 18px;
-    }
-    
-    td
-    {
-        padding: 5px;
-    }
-    
-    tr
-    {
-        background: #ABC96D;
-    }
-    
-    tr:hover td
-    {
-        background: #58663A;
-    }
-    
-    tr:nth-child(odd) td
-    {
-    background:#6E8049;
-    }
-     
-    tr:nth-child(odd):hover td
-    {
-        background:#58663A;
-    }
-    
-    }
-
-
-
-}
