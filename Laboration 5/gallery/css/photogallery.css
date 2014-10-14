@@ -111,6 +111,19 @@ body
     box-shadow: 0 10px 20px rgba(0,0,0,.7);
 }
 
+.images a:focus{
+	-webkit-transform: rotate(0deg); 
+	-moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+	-webkit-transform: scale(1.5); 
+	-moz-transform: scale(1.5);
+    transform: scale(1.5);
+	z-index:10;
+	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-moz-box-shadow: 0 10px 15px rgba(0,0,0,.5);
+    box-shadow: 0 10px 20px rgba(0,0,0,.7);
+}
+
 .images a {
 
 }
