@@ -23,7 +23,7 @@ body
 {
     float:left;
     width: 80%;
-    font-family: sensation;
+    font-family: sensation, sans-serif;
 }
 
 #side
